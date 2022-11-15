@@ -1,0 +1,17 @@
+name: libgeos
+version: 0.1.0
+
+authors:
+  - András Kolesár <kolesar@kolesar.hu>
+
+description: |
+  Crystal binding to GEOS geometry library
+
+libraries:
+  libgeos: "~> 3.9"
+
+development_dependencies:
+  libgen:
+    github: olbat/libgen
+
+license: MIT

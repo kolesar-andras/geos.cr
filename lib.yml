@@ -1,0 +1,11 @@
+name: Geos::Lib
+ldflags: "-lgeos"
+packages: geos
+destdir: src/geos
+definitions:
+  geos:
+    description: Geometry functions
+    includes:
+      - geos_c.h
+    prefixes:
+      - GEOS

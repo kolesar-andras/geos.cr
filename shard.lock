@@ -1,0 +1,22 @@
+version: 2.0
+shards:
+  clang:
+    git: https://github.com/crystal-lang/clang.cr.git
+    version: 0.3.0+git.commit.f046ff9e56344e19a2628403eaaea0d6d25ad1d6
+
+  crystal_lib:
+    git: https://github.com/crystal-lang/crystal_lib.git
+    version: 0.1.0+git.commit.c425bdd83d0c67766970f593991effa5252cca89
+
+  json_mapping:
+    git: https://github.com/crystal-lang/json_mapping.cr.git
+    version: 0.1.1+git.commit.7e063bd5af85446730d76efd337626d00ccc83e0
+
+  libgen:
+    git: https://github.com/olbat/libgen.git
+    version: 0.2.11
+
+  yaml_mapping:
+    git: https://github.com/crystal-lang/yaml_mapping.cr.git
+    version: 0.1.1+git.commit.fc980ef51780ecd56c03f20f10066c3fa5f3f6a4
+
