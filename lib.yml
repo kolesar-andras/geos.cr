@@ -1,7 +1,7 @@
 name: Geos::Lib
 ldflags: "-lgeos"
 packages: geos
-destdir: src/geos
+destdir: src/
 definitions:
   geos:
     description: Geometry functions
