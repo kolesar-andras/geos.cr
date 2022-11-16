@@ -1,5 +1,5 @@
 require "spec"
-require "../src/geos/geos.cr"
+require "../src/geos.cr"
 
 describe Geos do
   describe "wkt" do
